@@ -1,3 +1,137 @@
 body {
-  width: 100px;
+  position: relative; }
+
+#section1 {
+  background: rgba(210, 232, 239, 0.28); }
+
+.mrtester {
+  border: 1px solid red; }
+
+.circle {
+  border: 1px solid #000000;
+  height: 700px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff; }
+  .circle:hover {
+    box-shadow: inset 10px 10px 300px 0 #5da19b;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2); }
+
+.circle-bg {
+  background-image: url("http://res.cloudinary.com/cuteblacky/image/upload/v1516623461/circlebg_joajdm.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto; }
+
+.circle-sm {
+  border: 1px solid #000000;
+  height: 560px;
+  border-radius: 50%;
+  background-color: #000000;
+  color: #ffffff; }
+
+.small-box:hover {
+  background-image: url("http://res.cloudinary.com/cuteblacky/image/upload/v1515979144/ring_pe9pd2.svg");
+  background-repeat: no-repeat;
+  height: 25px; }
+
+a {
+  color: #ffffff; }
+  a:hover {
+    color: #97ff96;
+    text-decoration: none; }
+  a:active {
+    color: #97ff96;
+    text-decoration: none; }
+  a:focus {
+    color: #97ff96;
+    text-decoration: none; }
+
+.mt-6 {
+  padding: 50px; }
+
+.pt-6 {
+  padding-top: 80px; }
+
+.pt-7 {
+  padding-top: 50px; }
+
+.pt-8 {
+  padding-top: 70px; }
+
+.mrtester {
+  border: 1px solid red; }
+
+img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50px;
   height: 50px; }
+  .tiny-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; }
+
+.rounded-tiny {
+  border-radius: 50%;
+  border: 1px solid #f0f0f0;
+  height: 95px;
+  width: 100px;
+  background: #ffffff;
+  font-size: 10pt;
+  margin: 40px auto auto; }
+
+.tiny-line {
+  height: 30px;
+  width: 5px;
+  border-radius: 50%;
+  background: rgba(255, 226, 61, 0.51);
+  border: 1px solid #ffffff; }
+
+.tiny-sharp-line {
+  height: 6px;
+  background: rgba(0, 214, 129, 0.51); }
+
+.transition-images {
+  height: 100vh;
+  background-image: url("http://res.cloudinary.com/cuteblacky/image/upload/v1516056531/Screen_Shot_2017-12-08_at_12.50.10_PM_zgxo0v.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 30px; }
+
+.border-left {
+  border-left-style: double;
+  border-left-color: rgba(78, 193, 87, 0.38);
+  border-left-width: 5px;
+  font-size: 10pt; }
+
+.border-right {
+  border-right-style: double;
+  border-right-color: rgba(78, 193, 87, 0.38);
+  border-right-width: 5px;
+  font-size: 10pt; }
+
+.border-bottom {
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-align: left;
+  width: 100px;
+  height: 10px;
+  background: #004004; }
+
+.sm-box-container {
+  background: rgba(209, 209, 209, 0.47);
+  height: 50px;
+  border-bottom: 1px solid rgba(78, 193, 87, 0.38); }
+
+.xs-box {
+  background: rgba(237, 230, 33, 0.56);
+  height: 50px;
+  border-bottom: 1px solid rgba(78, 193, 87, 0.38); }
+
+.percentage {
+  background: rgba(253, 236, 165, 0.71);
+  height: 50px;
+  border-bottom: 1px solid rgba(78, 193, 87, 0.38); }
