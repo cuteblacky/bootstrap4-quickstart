@@ -8,17 +8,115 @@
   <title>Cuteblacky</title>
 
 
-  <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-  <!-- <link rel="stylesheet" type="text/css" href="./css/materialize.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="./css/bootstrap.css"> -->
+  <link rel="stylesheet" type="text/css" href="./css/materialize.css">
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
 
 
-  <link rel="stylesheet" href="css/style.css" />
+  <!-- <link rel="stylesheet" href="css/style.css" /> -->
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="0">
-  <div class="container-fluid transition-images ">
+
+  <style>
+
+  body{
+
+    position: relative;
+  }
+
+  .circle {
+
+    height: 700px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    }
+
+
+    .circle:hover {
+      box-shadow: inset 10px 10px 300px 0 #5da19b;
+      border: 0.5rem solid rgba(255, 255, 255, 0.2); }
+
+    a {
+      color: #ffffff; }
+
+      a:hover {
+        color: #97ff96;
+        text-decoration: none;
+      }
+
+      a:active {
+        color: #97ff96;
+        text-decoration: none; }
+
+      a:focus {
+        color: #97ff96;
+        text-decoration: none; }
+
+/* .big-man:hover{
+
+  background-image: url("http://res.cloudinary.com/cuteblacky/image/upload/v1515979144/ring_pe9pd2.svg");
+  background-repeat: no-repeat;
+
+  height: 10px !important;
+} */
+
+
+  </style>
+
+<div class="row " style=" height: 900px; background-repeat: no-repeat; background-image:url(http://res.cloudinary.com/cuteblacky/image/upload/v1516056531/Screen_Shot_2017-12-08_at_12.50.10_PM_zgxo0v.png); background-position: center; background-size: cover; width: 100%; height: 100%;" >
+<div class="col s12" style="margin-top: 20px;" >
+  <div class="col s12" >
+    <i><img src="http://res.cloudinary.com/cuteblacky/image/upload/c_scale,h_305/v1516475379/new1newnew_qse2zq.svg" width="80px" /></i>
+  </div>
+  <div class=" row col s6 offset-s3  white-text circle" style="height:700px; border-radius: 50%; margin-bottom: 50px;  background-repeat: no-repeat; background-image:url(http://res.cloudinary.com/cuteblacky/image/upload/v1516623461/circlebg_joajdm.svg); background-position: center; background-size: cover;">
+    <div class=" col s12 " style="margin-top:140px;">
+      <div class="col s6 center-align big-man  ">
+        <i class="col s12 "><img src="http://res.cloudinary.com/cuteblacky/image/upload/v1515887263/boy_ovkg7o.svg" width="50px" class=" "/> </i>
+          <a href="">About me</a>
+      </div>
+
+      <div class="col s6 center-align big-man">
+        <i class="col s12 "><img src="http://res.cloudinary.com/cuteblacky/image/upload/v1515958676/idea_llwdbg.svg" width="50px" class=" "/> </i>
+          <a href="">Contact me</a>
+      </div>
+
+    </div>
+    <div class=" col s12  " style="margin-top:20px; padding: 50px;">
+      <div class="col s6 left-align big-man">
+        <i class="col s12 "><img src="http://res.cloudinary.com/cuteblacky/image/upload/v1515958433/bulb_kragcq.svg" width="50px" class=" "/> </i>
+          <a href="" >My Skills</a>
+      </div>
+
+      <div class="col s6 right-align big-man">
+        <i class="col s12 "><img src="http://res.cloudinary.com/cuteblacky/image/upload/v1515958436/noun_1333677_cc_q0jeki.svg" width="50px" class=" "/> </i>
+          <a href="" class="">Projects</a>
+      </div>
+
+    </div>
+    <div class=" col s12  " style="margin-top:20px;">
+      <div class="col s6 center-align ">
+        <i class="col s12 "><img src="http://res.cloudinary.com/cuteblacky/image/upload/v1515957075/human-resources_wx0iaf.svg" width="50px" class=" "/> </i>
+          <a href="">Hire me</a>
+      </div>
+
+      <div class="col s6 center-align ">
+        <i class="col s12 "><img src="http://res.cloudinary.com/cuteblacky/image/upload/v1515958098/blog_qnthvn.svg" width="50px" class=" "/> </i>
+          <a href="">Blogs</a>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+</div>
+</div>
+
+
+  <!--  <div class="container-fluid transition-images ">
     <div class="logo ">
       <a href="index.html"><i class="col "><img src="http://res.cloudinary.com/cuteblacky/image/upload/v1515956279/Cuteblack_LOGO_k3ha8a.svg"/></i>
     </a>
@@ -373,7 +471,7 @@
 
 </div>
 
-    <!-- <div class="col-10 row">
+    <div class="col-10 row">
 
       <div class="col-2 xs-box-custom">
         <p class="text-center pt-2">Adobe Photoshop</p>
@@ -398,12 +496,20 @@
     </div>
     <div class="col-8 sm-box-custom">
 
-    </div> -->
+    </div>
 
     <h2 class="mdc-typography--display2">Hello, Material Components!</h2>
     <button type="button" class="col  btn btn-primary">
   Press Me
 </button>
+
+
+
+    <div class="row">
+      <div class="col s12"><span class="flow-text">This div is 12-columns wide on all screen sizes</span></div>
+      <div class="col s6 offset-s6"><span class="flow-text">6-columns (offset-by-6)</span></div>
+    </div>-->
+
 
 
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
